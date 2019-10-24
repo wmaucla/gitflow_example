@@ -21,3 +21,6 @@ git status # just to see what's changed
 git add file_name # add a file that you've edited
 git commit -m "my_message" # add a message plus commit the files staged
 git push # send the files to github 
+
+git checkout develop # switch to the branch you are going to merge into
+git merge develop # and merge branches
