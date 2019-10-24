@@ -24,3 +24,7 @@ git push # send the files to github
 
 git checkout develop # switch to the branch you are going to merge into
 git merge develop # and merge branches
+
+
+View git graph:
+git log --graph --pretty=oneline --abbrev-commit
